@@ -188,7 +188,7 @@ udpServer.bind(5252, () => {
         });
 
         // Bind the TLS server to a port
-        tlsServer.listen(2322, () => {
+        tlsServer.listen(8000, () => {
             console.log('TLS Control/Data Server listening on port 443');
         });
 
